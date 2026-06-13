@@ -490,6 +490,4 @@ async def ash(ctx):
 
 import os
 
-TOKEN = os.getenv("DISCORD_TOKEN")
-
-bot.run("TOKEN")
+bot.run(os.getenv("DISCORD_TOKEN"))
