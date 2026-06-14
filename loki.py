@@ -441,6 +441,8 @@ quin = [
     "curled up in one of his nests eating snacks",
     "listening to Ender talk about tech",
     "reading up on the latest tech news",
+    "gliding around the warehouse",
+    "playing with Ithindril",
 ]
 
 
