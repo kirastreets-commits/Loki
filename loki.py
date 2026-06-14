@@ -435,6 +435,16 @@ zevryn = [
     "trying to soothe a moody Ashara",
 ]
 
+quin = [
+    "raiding someone's things for snacks",
+    "curled up in one of his nests sleeping",
+    "curled up in one of his nests eating snacks",
+    "listening to Ender talk about tech",
+    "reading up on the latest tech news",
+]
+
+
+
 @bot.command()
 async def theft(ctx):
 
@@ -506,6 +516,15 @@ async def zev(ctx):
 
     result = (
         f"*Zevryn is currently {random.choice(zevryn)}*"
+    )
+
+    await ctx.send(result)
+
+@bot.command()
+async def quin(ctx):
+
+    result = (
+        f"*Quin is currently {random.choice(quin)}*"
     )
 
     await ctx.send(result)
