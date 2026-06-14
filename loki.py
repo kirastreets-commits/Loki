@@ -435,7 +435,7 @@ zevryn = [
     "trying to soothe a moody Ashara",
 ]
 
-quin = [
+aquiny = [
     "raiding someone's things for snacks",
     "curled up in one of his nests sleeping",
     "curled up in one of his nests eating snacks",
@@ -526,7 +526,7 @@ async def zev(ctx):
 async def quin(ctx):
 
     result = (
-        f"*Quin is currently {random.choice(quin)}*"
+        f"*Quin is currently {random.choice(aquiny)}*"
     )
 
     await ctx.send(result)
