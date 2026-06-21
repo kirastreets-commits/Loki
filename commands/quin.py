@@ -13,7 +13,7 @@ aquiny = [
     "singing a threadsong - it feels sad",
     "building a new nest out of random soft objects",
     "rearranging his nest for the third time today",
-    "hoarding shiny objects 'just in case',
+    "hoarding shiny objects 'just in case'",
     "tangled in blankets refusing to move",
     "half-asleep but still talking",
     "guarding his snack pile like it’s sacred",
