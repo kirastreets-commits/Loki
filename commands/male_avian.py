@@ -21,7 +21,6 @@ def generate_avian_name():
 def setup(bot):
     @bot.command()
     async def male_avian(ctx):
-        result = random.choice(starts) + random.choice(middles) + random.choice(ends)
         result = (
             f"*Your Avian's name is{(generate_avian_name)}*"
         )
