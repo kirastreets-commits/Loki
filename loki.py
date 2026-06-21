@@ -446,8 +446,8 @@ aquiny = [
 ]
 
 starts = [
-    "Qu", "K", "T", "S", "V",
-    "L", "R", "W", "N", "C"
+    "Qu", "K", "T", "S", "So", "V",
+    "L", "R", "W","Wr", "N", "C"
 ]
 
 middles = [
@@ -464,7 +464,7 @@ def generate_avian_name():
     return random.choice(starts) + random.choice(middles) + random.choice(ends)
 
 @bot.command()
-async def avian_name(ctx):
+async def avian_male_name(ctx):
     result = random.choice(starts) + random.choice(middles) + random.choice(ends)
     await ctx.send(result)
 
