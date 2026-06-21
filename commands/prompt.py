@@ -95,7 +95,7 @@ def setup(bot):
     async def prompt(ctx):
 
         result = (
-            f"👥 {random.choice(charD)} and {random.choice(charL)}\n"
+            f"## {random.choice(charD)} and {random.choice(charL)}\n"
             f"⚔️ Conflict: {random.choice(prob)}\n"
             f"🎭 Vibes: {random.choice(mood)}\n"
             f"📦 Random inclusion: {random.choice(thing)}"
