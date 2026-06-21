@@ -50,9 +50,9 @@ def setup(bot):
     async def theft(ctx):
 
         result = (
-            f"{random.choice(thief)} stole "
+            f"**{random.choice(thief)}** stole "
             f"{random.choice(item)} from "
-            f"{random.choice(victim)}. "
+            f"**{random.choice(victim)}**. "
             f"When confronted, they {random.choice(react)}."
         )
 
