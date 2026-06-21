@@ -8,6 +8,9 @@ aquiny = [
     "reading up on the latest tech news",
     "gliding around the warehouse",
     "playing with Ithindril",
+    "watching his monitoring system on his phone with a sad expression",
+    "singing a threadsong - it's a beautiful sound",
+    "singing a threadsong - it feels sad",
 ]
 
 def setup(bot):
