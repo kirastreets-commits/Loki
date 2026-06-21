@@ -9,6 +9,8 @@ zevryn = [
     "sitting cross-legged, his eyes closed, apparently meditating on something", 
     "discussing plans with the gang",
     "having a private chat with Silk",
+    "having a private chat with Dr. Sevka",
+    "having a private chat with Ender",
     "out on a job to save some magical creatures",
     "trying to soothe a moody Ashara",
 ]
