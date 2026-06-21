@@ -13,7 +13,7 @@ aquiny = [
     "singing a threadsong - it feels sad",
     "building a new nest out of random soft objects",
     "rearranging his nest for the third time today",
-    "hoarding shiny objects “just in case”,
+    "hoarding shiny objects 'just in case',
     "tangled in blankets refusing to move",
     "half-asleep but still talking",
     "guarding his snack pile like it’s sacred",
@@ -52,8 +52,8 @@ aquiny = [
     "hiding snacks and forgetting where he put them",
     "insisting something happened that didn’t",
     "getting stuck in a nest and refusing to admit it",
-    "trying to “help” and making things worse",
-    "declaring himself “Snack Guardian” for the day",
+    "trying to 'help' and making things worse",
+    "declaring himself 'Snack Guardian' for the day",
 ]
 
 def setup(bot):
