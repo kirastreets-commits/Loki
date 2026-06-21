@@ -110,16 +110,17 @@ trait = [
     "Glowing tears",
 ]
 
-@bot.command()
-async def dragon(ctx):
-
-    result = (
-        f"## Here there be dragons \n"
-        f"**Species**: {random.choice(species)}\n"
-        f"**Magic**: {random.choice(magic)}\n"
-        f"**Colour**: {random.choice(colour)}\n"
-        f"**Personality**: {random.choice(perso)}\n"
-        f"**Trait**: {random.choice(trait)}\n"
-    )
-
-    await ctx.send(result)
+def setup(bot):
+    @bot.command()
+    async def dragon(ctx):
+    
+        result = (
+            f"## Here there be dragons \n"
+            f"**Species**: {random.choice(species)}\n"
+            f"**Magic**: {random.choice(magic)}\n"
+            f"**Colour**: {random.choice(colour)}\n"
+            f"**Personality**: {random.choice(perso)}\n"
+            f"**Trait**: {random.choice(trait)}\n"
+        )
+    
+        await ctx.send(result)
