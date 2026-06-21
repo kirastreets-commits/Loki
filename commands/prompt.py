@@ -1,3 +1,5 @@
+import random
+
 # ----- NAME D -----
 charD = [
     "Zevryn", "Quin", "Silk", "Dr. Sevka", "Ashara"
