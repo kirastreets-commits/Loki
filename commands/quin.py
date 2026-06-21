@@ -44,7 +44,7 @@ aquiny = [
     "clicking things he shouldn’t (again)",
     "getting distracted by glowing interfaces",
     "organizing data “based on vibes” instead of logic",
-    "trying to sing at a computer to 'make it work faster' (helping Ender)”,
+    "trying to sing at a computer to make it work faster \(he's helping Ender\)”,
     "sitting quietly after overstimulation",
     "missing someone but not saying it",
     "replaying memories through threadsong",
