@@ -23,6 +23,6 @@ def setup(bot):
     async def male_avian(ctx):
         result = random.choice(starts) + random.choice(middles) + random.choice(ends)
         result = (
-            f"*Your Avian's name is{random.choice(starts) + random.choice(middles) + random.choice(ends))}*"
+            f"*Your Avian's name is{(generate_avian_name)*"
         )
         await ctx.send(result)
