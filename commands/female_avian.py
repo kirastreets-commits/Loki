@@ -19,4 +19,4 @@ def setup(bot):
     @bot.command()
     async def female_avian(ctx):
         result = random.choice(starts) + random.choice(middles) + random.choice(ends)
-        await ctx.send("Your Avian's name is" (result))
+        await ctx.send(result)
