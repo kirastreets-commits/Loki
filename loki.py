@@ -464,7 +464,7 @@ def generate_avian_name():
     return random.choice(starts) + random.choice(middles) + random.choice(ends)
 
 @bot.command()
-aync def avian_name(ctx):
+async def avian_name(ctx):
     result = random.choice(starts) + random.choice(middles) + random.choice(ends)
     await ctx.send(result)
 
