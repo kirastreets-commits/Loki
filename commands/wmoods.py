@@ -43,12 +43,13 @@ def setup(bot):
     @bot.command()
     async def wmoods(ctx):
         result = (
-            f"Zevryn: {random.choice(moods)}\n"
-            f"Quin: {random.choice(moods)}\n"
-            f"Silk: {random.choice(moods)}\n"
-            f"Nyx: {random.choice(moods)}\n"
-            f"Dr. Sevka: {random.choice(moods)}\n"
-            f"Ashara: {random.choice(moods)}\n"
-            f"Ithindril: {random.choice(moods)}"
+            f"###The current moods in the warehouse\n"
+            f"**Zevryn**: {random.choice(moods)}\n"
+            f"**Quin**: {random.choice(moods)}\n"
+            f"**Silk**: {random.choice(moods)}\n"
+            f"**Nyx**: {random.choice(moods)}\n"
+            f"**Dr. Sevka**: {random.choice(moods)}\n"
+            f"**Ashara**: {random.choice(moods)}\n"
+            f"**Ithindril**: {random.choice(moods)}"
         )
         await ctx.send(result)
