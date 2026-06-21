@@ -96,7 +96,7 @@ def setup(bot):
 
         result = (
             f"## {random.choice(charD)} and {random.choice(charL)}\n"
-            f"⚔️ Conflict: {random.choice(prob)}\n"
+            f"⚔️ {random.choice(prob)}\n"
             f"🎭 Vibes: {random.choice(mood)}\n"
             f"📦 Random inclusion: {random.choice(thing)}"
         )
