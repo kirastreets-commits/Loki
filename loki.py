@@ -445,6 +445,29 @@ aquiny = [
     "playing with Ithindril",
 ]
 
+starts = [
+    "Qu", "K", "T", "S", "V",
+    "L", "R", "W", "N", "C"
+]
+
+middles = [
+    "i", "e", "a", "ae",
+    "ai", "y", "o"
+]
+
+ends = [
+    "n", "r", "l", "s",
+    "th", "k", "yn"
+]
+
+def generate_avian_name():
+    return random.choice(starts) + random.choice(middles) + random.choice(ends)
+
+@bot.command()
+aync def avian_name(ctx):
+    result = generate_avian_name
+    await ctx.send(result)
+
 
 
 @bot.command()
