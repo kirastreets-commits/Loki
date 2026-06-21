@@ -43,7 +43,7 @@ def setup(bot):
     @bot.command()
     async def wmoods(ctx):
         result = (
-            f"###The current moods in the warehouse\n"
+            f"## The current moods in the warehouse\n"
             f"**Zevryn**: {random.choice(moods)}\n"
             f"**Quin**: {random.choice(moods)}\n"
             f"**Silk**: {random.choice(moods)}\n"
