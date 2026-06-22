@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-from commands import theft, prompt, dragon, dragonmood, ith, ash, zev, quin, male_avian, female_avian, silk, wmoods, sevka
+from commands import theft, prompt, dragon, dragonmood, ith, ash, zev, quin, male_avian, female_avian, silk, wmoods, sevka, nyx
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -27,6 +27,7 @@ female_avian.setup(bot)
 wmoods.setup(bot)
 silk.setup(bot)
 sevka.setup(bot)
+nyx.setup(bot)
 
 import os
 
