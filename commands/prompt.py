@@ -90,12 +90,27 @@ thing = [
     "someone's odd nesting behaviour"
 ]
 
+location = [
+    "the warehouse",
+    "Ashara's nest",
+    "a rescue mission",
+    "the city",
+    "a forest",
+    "a marketplace",
+    "a rooftop",
+    "Ender's room",
+    "Sevka's Lab",
+    "a special event",
+    "the industrial disctrict"
+]
+
 def setup(bot):
     @bot.command()
     async def prompt(ctx):
 
         result = (
             f"## {random.choice(charD)} and {random.choice(charL)}\n"
+            f"📍 Location: **{random.choice(location)}**\n"
             f"⚔️ **{random.choice(prob)}**\n"
             f"🎭 Vibes: **{random.choice(mood)}**\n"
             f"📦 Random inclusion: **{random.choice(thing)}**"
