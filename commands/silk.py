@@ -71,7 +71,6 @@ silk = [
     "claiming everything is under control",
     "making promises that are technically not lies"
 ]
-]
 
 def setup(bot):
     @bot.command()
