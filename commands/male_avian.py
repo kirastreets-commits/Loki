@@ -1,25 +1,51 @@
 import random
 
-starts = [
-    "Qu", "K", "T", "S", "V",
-    "L", "R", "W", "N", "C"
-]
+starts = {
+    "Qu": "song",
+    "K": "wind",
+    "T": "flight",
+    "S": "sky",
+    "V": "journey",
+    "L": "light",
+    "R": "river",
+    "W": "wander",
+    "N": "nest",
+    "C": "cloud"
+}
 
-middles = [
-    "i", "e", "a", "ae",
-    "ai", "y", "o"
-]
+middles = {
+    "i": "small",
+    "e": "gentle",
+    "a": "strong",
+    "ae": "ancient",
+    "ai": "curious",
+    "y": "free",
+    "o": "bright"
+}
 
-ends = [
-    "n", "r", "l", "s",
-    "th", "k", "yn"
-]
+ends = {
+    "n": "spirit",
+    "r": "caller",
+    "l": "keeper",
+    "s": "singer",
+    "th": "guardian",
+    "k": "scout",
+    "yn": "friend"
+}
 
-def generate_avian_name():
-    return random.choice(starts) + random.choice(middles) + random.choice(ends)
+start = random.choice(list(starts.keys()))
+middle = random.choice(list(middles.keys()))
+end = random.choice(list(ends.keys()))
+
+name = start + middle + end
+meaning = f"{starts[start]} {middles[middle]} {ends[end]}"
 
 def setup(bot):
     @bot.command()
     async def male_avian(ctx):
-        result = random.choice(starts) + random.choice(middles) + random.choice(ends)
+        result = (
+        f"Name: {name}"
+        f"Meaning: The {middles[middle]} {ends[end]} of {starts[start]}"
+        )
+        
         await ctx.send(result)
