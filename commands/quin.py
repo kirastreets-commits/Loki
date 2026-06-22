@@ -60,7 +60,7 @@ def setup(bot):
     async def quin(ctx):
 
         result = (
-            f"*Quin is currently {random.choice(aquiny)}*"
+            f"*Quin is currently {random.choice(aquiny)}*."
         )
 
         await ctx.send(result)
