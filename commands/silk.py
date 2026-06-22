@@ -22,8 +22,6 @@ silk = [
     "meeting with one of his informants",
     "negotiating better terms on a contract",
     "casually gathering information from unsuspecting people",
-
-    # Found Family
     "checking in on one of the gang members",
     "bringing snacks back for everyone",
     "having a private chat with Zevryn",
@@ -34,8 +32,6 @@ silk = [
     "making sure everyone has what they need",
     "covering for one of the gang members",
     "organizing an outing for the group",
-
-    # Mischief
     "starting a rumor just to see what happens",
     "planning something that definitely isn't a prank",
     "being banned from somewhere again",
@@ -46,8 +42,6 @@ silk = [
     "attempting to recruit Nyx into a bad idea",
     "looking far too pleased with himself",
     "refusing to explain what he's smiling about",
-
-    # Softer Side
     "quietly helping someone who needed it",
     "reading through old messages from friends",
     "checking on a rescued creature",
@@ -58,8 +52,6 @@ silk = [
     "thinking about people he misses",
     "taking a rare moment to himself",
     "pretending he doesn't care when he absolutely does",
-
-    # Funny
     "trying to look innocent",
     "absolutely not causing trouble",
     "being blamed for something he may or may not have done",
