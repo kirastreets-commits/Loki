@@ -61,7 +61,16 @@ asilk = [
     "avoiding several people looking for him",
     "working on a plan that somehow involves three favors and a pigeon",
     "claiming everything is under control",
-    "making promises that are technically not lies"
+    "making promises that are technically not lies",
+    "meeting someone who owes him a favor",
+    "calling in an old debt",
+    "collecting on a wager",
+    "arranging something through his network",
+    "learning things he probably shouldn't know",
+    "trading secrets for information",
+    "making introductions between powerful people",
+    "turning a problem into an opportunity",
+    "already knowing about today's drama somehow",
 ]
 
 def setup(bot):
@@ -69,7 +78,7 @@ def setup(bot):
     async def silk(ctx):
 
         result = (
-            f"*Silk is currently {random.choice(asilk)}*"
+            f"*Silk is currently {random.choice(asilk)}.*"
         )
 
         await ctx.send(result)
