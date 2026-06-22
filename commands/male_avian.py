@@ -32,14 +32,14 @@ ends = {
     "k": "scout",
     "yn": "friend"
 }
-
+extra = ["", "", "", "r", "l", "v", "th", "n"]
 
 def generate_avian():
     start = random.choice(list(starts.keys()))
     middle = random.choice(list(middles.keys()))
     end = random.choice(list(ends.keys()))
 
-    name = start + middle + end
+    name = start + middle + random.choice(extra) + end
     meaning = f"The {middles[middle]} {ends[end]} of {starts[start]}"
 
     return name, meaning
