@@ -90,7 +90,7 @@ def setup(bot):
     async def sev(ctx):
 
         result = (
-            f"*Dr. Sevka is currently {random.choice(sevka)}*"
+            f"*Dr. Sevka is currently {random.choice(sevka)}*."
         )
 
         await ctx.send(result)
