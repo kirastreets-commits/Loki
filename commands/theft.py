@@ -1,7 +1,8 @@
 import random
 
 thief = ["Quin", "Ithindril" ]
-item = ["snacks", 
+item = [
+    "snacks", 
     "a single sock", 
     "underwear", 
     "shoes",
@@ -17,7 +18,7 @@ item = ["snacks",
     "jewelry",
     "a handwritten letter",
     "a favorite weapon",
-    "a cloak or jacket that smells like the owner",
+    "a cloak or jacket ( it smells like the owner )",
     "a potion",
     "the victim’s 'lucky' item or clothes",
     "half eaten food (when the victim looked away for a second)",
@@ -48,9 +49,10 @@ item = ["snacks",
     "someone else's stolen goods",
     "an entire pile of blankets",
 ]
-victim = ["Zevryn",  
+victim = [
+    "Zevryn",  
     "Silk", 
-    "Dr.Sevka", 
+    "Dr. Sevka", 
     "Ashara",
     "Nyx",
     "Ender"
@@ -98,6 +100,7 @@ react = [
     "offer a completely unrelated item as compensation",
     "have hidden it in an absurdly obvious location"
 ]
+
 victim_reaction = [
     "The victim is not amused.",
     "The victim seems oddly unsurprised.",
