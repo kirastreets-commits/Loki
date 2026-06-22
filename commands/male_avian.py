@@ -44,7 +44,7 @@ def setup(bot):
     @bot.command()
     async def male_avian(ctx):
         result = (
-        f"Name: {name}"
+        f"Name: {name} \n"
         f"Meaning: The {middles[middle]} {ends[end]} of {starts[start]}"
         )
         
