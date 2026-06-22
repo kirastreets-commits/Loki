@@ -1,7 +1,7 @@
 import random
 
 ny = [
-    "making another communal nest for everyone, taking just about every blanket, pillow, and piece of clothing possible",
+    "making another communal nest for everyone, taking just about every blanket, pillow, and piece of clothing possible.",
     "Nyx chitters excitedly at finding new supplies. Fae stashes them in faer nest.",
     "Nyx is chasing Ithindril around. She's causing chaos again.",
     "Nyx has been in faer room all day tending to Ithindril. It's a bad day.",
@@ -17,7 +17,7 @@ def setup(bot):
     async def nyx(ctx):
 
         result = (
-            f"*Nyx is currently {random.choice(ny)}*."
+            f"*Nyx is currently {random.choice(ny)}*"
         )
 
         await ctx.send(result)
