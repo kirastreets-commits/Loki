@@ -69,8 +69,7 @@ asilk = [
     "learning things he probably shouldn't know",
     "trading secrets for information",
     "making introductions between powerful people",
-    "turning a problem into an opportunity",
-    "already knowing about today's drama somehow",
+    "turning a problem into an opportunity"
 ]
 
 def setup(bot):
