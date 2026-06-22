@@ -57,7 +57,7 @@ def setup(bot):
     async def zev(ctx):
 
         result = (
-            f"*Zevryn is currently {random.choice(zevryn)}*"
+            f"*Zevryn is currently {random.choice(zevryn)}*."
         )
 
         await ctx.send(result)
