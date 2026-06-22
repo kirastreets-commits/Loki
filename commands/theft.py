@@ -111,8 +111,8 @@ victim_reaction = [
     "Silk is already taking bets on the outcome.",
     "Sevka is takes notes curiously.",
     "Nyx is questioning his life choices.",
-    "Quin is very proud of themselves.",
-    "Ithindril has absolutely no regrets."
+    "The thief is very proud of themselves.",
+    "The thief has absolutely no regrets."
 ]
 def setup(bot):
     @bot.command()
@@ -122,7 +122,7 @@ def setup(bot):
             f"**{random.choice(thief)}** stole "
             f"{random.choice(item)} from "
             f"**{random.choice(victim)}**. "
-            f"When confronted, they {random.choice(react)}."
+            f"When confronted, they {random.choice(react)}. "
             f"{random.choice(victim_reaction)}"
         )
 
