@@ -9,7 +9,9 @@ ZEVRYN_MOODS = [
     "Tired",
     "Concerned",
     "Frustrated",
-    "Hopeful"
+    "Hopeful",
+    "Mission-Oriented", "Protective",
+    "Brooding"
 ]
 
 QUIN_MOODS = [
@@ -21,7 +23,31 @@ QUIN_MOODS = [
     "Energetic", "Energetic",
     "Inspired",
     "Distracted",
-    "Tired"
+    "Tired",
+    "Songful", "Nest-Brained", "Brooding"
+]
+
+ENDER_MOODS = [
+    "Focused", "Focused", "Focused",
+    "Curious", "Curious", "Curious",
+    "Content", "Content",
+    "Calm", "Calm",
+    "Amused", "Amused",
+    "Inspired", "Inspired",
+    "Happy",
+    "Affectionate",
+    "Tired", "Tired",
+    "Distracted",
+    "Overwhelmed",
+    "Concerned",
+    "Determined",
+    "Hopeful",
+    "Hyperfocused"
+    "Debugging",
+    "Inventive",
+    "Problem-Solving",
+    "Technically Concerned",
+    "Running on Coffee"
 ]
 
 SILK_MOODS = [
@@ -34,7 +60,8 @@ SILK_MOODS = [
     "Affectionate",
     "Restless",
     "Frustrated",
-    "Mischievous", "Mischievous", "Mischievous"
+    "Mischievous", "Mischievous", "Mischievous",
+    "Scheming", "Smug"
 ]
 
 NYX_MOODS = [
@@ -47,7 +74,8 @@ NYX_MOODS = [
     "Sensitive",
     "Conflicted",
     "Anxious",
-    "Determined"
+    "Determined",
+    "Brooding", "Observant"
 ]
 
 SEVKA_MOODS = [
@@ -59,7 +87,8 @@ SEVKA_MOODS = [
     "Hopeful",
     "Overwhelmed",
     "Reflective",
-    "Content"
+    "Content",
+    "Scientifically Concerned"
 ]
 
 ASHARA_MOODS = [
@@ -72,7 +101,8 @@ ASHARA_MOODS = [
     "Restless",
     "Frustrated",
     "Agitated",
-    "Playful-chaotic", "Playful-chaotic", "Playful-chaotic"
+    "Playful-chaotic", "Playful-chaotic", "Playful-chaotic",
+    "Hangry", "Attention-Seeking", "Cuddle-Deprived", "Brooding"
 ]
 
 ITHINDRIL_MOODS = [
@@ -85,7 +115,8 @@ ITHINDRIL_MOODS = [
     "Playful-chaotic", "Playful-chaotic", "Playful-chaotic",
     "Distracted",
     "Restless",
-    "Mischievous", "Mischievous"
+    "Mischievous", "Mischievous",
+    "Gremlin Mode", "Treasure-Hunting"
 ]
 
 def setup(bot):
@@ -97,6 +128,7 @@ def setup(bot):
             "📋 **Current Warehouse Moods**\n\n"
             f"⚔️ Zevryn: {random.choice(ZEVRYN_MOODS)}\n"
             f"🐦 Quin: {random.choice(QUIN_MOODS)}\n"
+            f"🛠️ Ender: {random.choice(ENDER_MOODS)}\n"
             f"🦊 Silk: {random.choice(SILK_MOODS)}\n"
             f"🌙 Nyx: {random.choice(NYX_MOODS)}\n"
             f"🧪 Dr. Sevka: {random.choice(SEVKA_MOODS)}\n"
