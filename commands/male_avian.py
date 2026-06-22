@@ -33,19 +33,27 @@ ends = {
     "yn": "friend"
 }
 
-start = random.choice(list(starts.keys()))
-middle = random.choice(list(middles.keys()))
-end = random.choice(list(ends.keys()))
 
-name = start + middle + end
-meaning = f"{starts[start]} {middles[middle]} {ends[end]}"
+def generate_avian():
+    start = random.choice(list(starts.keys()))
+    middle = random.choice(list(middles.keys()))
+    end = random.choice(list(ends.keys()))
+
+    name = start + middle + end
+    meaning = f"The {middles[middle]} {ends[end]} of {starts[start]}"
+
+    return name, meaning
+
 
 def setup(bot):
     @bot.command()
     async def male_avian(ctx):
+        name, meaning = generate_avian()
+
         result = (
-        f"Name: {name} \n"
-        f"Meaning: The {middles[middle]} {ends[end]} of {starts[start]}"
+            f"🪶 **Avian Name Generator**\n\n"
+            f"**Name:** {name}\n"
+            f"**Meaning:** {meaning}"
         )
-        
+
         await ctx.send(result)
