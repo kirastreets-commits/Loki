@@ -120,7 +120,17 @@ ashara = [
     "having a staring contest with a wall",
     "waiting for someone to notice her latest achievement",
     "being offended for reasons only she understands",
-    "holding the entire warehouse hostage with her cuteness"
+    "holding the entire warehouse hostage with her cuteness",
+    "has somehow convinced everyone to join a nest pile",
+    "is asleep with half the gang trapped underneath her",
+    "has stolen an entire couch for her nest",
+    "is proudly presenting a 'gift' she found somewhere",
+    "has declared herself Queen of the Warehouse",
+    "is teaching rescued creatures how to cause trouble",
+    "is being unusually quiet, which is making everyone nervous",
+    "is curled around the entire hoard and refusing visitors",
+    "has trapped Zevryn, Quin, and Silk in a cuddle pile",
+    "is receiving the worship she believes she deserves"
 ]
 
 def setup(bot):
