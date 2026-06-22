@@ -22,7 +22,7 @@ moods = [
     "Lonely",
     "Anxious",
     "Nervous",
-    "Uncertain"
+    "Uncertain",
     "Overwhelmed",
     "Restless",
     "Guilt-touched",
