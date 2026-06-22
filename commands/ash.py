@@ -48,7 +48,7 @@ def setup(bot):
     async def ash(ctx):
 
         result = (
-            f"*Ashara is currently {random.choice(ashara)}*"
+            f"*Ashara is currently {random.choice(ashara)}*."
         )
 
         await ctx.send(result)
