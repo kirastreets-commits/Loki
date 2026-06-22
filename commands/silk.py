@@ -1,7 +1,7 @@
 import random
 
 
-silk = [
+asilk = [
     "negotiating a deal",
     "bothering Nyx for fun",
     "flirting with someone for information",
@@ -69,7 +69,7 @@ def setup(bot):
     async def silk(ctx):
 
         result = (
-            f"*Silk is currently {random.choice(silk)}*"
+            f"*Silk is currently {random.choice(asilk)}*"
         )
 
         await ctx.send(result)
