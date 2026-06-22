@@ -1,7 +1,6 @@
 import random
 
 ny = [
-    "making another communal nest for everyone, taking just about every blanket, pillow, and piece of clothing possible.",
     "chittering excitedly at finding new supplies. Fae stashes them in faer nest.",
     "chasing Ithindril around. She's causing chaos again.",
     "in faer room all day tending to Ithindril. It's a bad day.",
