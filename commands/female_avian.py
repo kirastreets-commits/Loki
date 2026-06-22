@@ -55,7 +55,7 @@ def generate_avian():
 
 def setup(bot):
     @bot.command()
-    async def male_avian(ctx):
+    async def female_avian(ctx):
         name, meaning = generate_avian()
 
         result = (
