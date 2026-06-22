@@ -27,7 +27,7 @@ female_avian.setup(bot)
 wmoods.setup(bot)
 silk.setup(bot)
 sevka.setup(bot)
-nyx.setup(bot
+nyx.setup(bot)
 ender.setup(bot)
 
 import os
