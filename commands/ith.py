@@ -137,7 +137,7 @@ ithindril = [
     "proudly carrying something larger than herself",
     "convincing Ashara to help with a heist",
     "receiving unlimited cuddles and has no intention of leaving",
-    "mia \( has vanished with a suspiciously important item)\"
+    "missing and has vanished with a suspiciously important item"
 ]
 
 
