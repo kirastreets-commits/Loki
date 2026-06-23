@@ -12,7 +12,7 @@ bot = commands.Bot(command_prefix="!", intents=intents, help_command=None)
 
 @bot.event
 async def on_ready():
-    print(f"🐉 Sanctuary is online as {bot.user}")
+    print(f"🐉 Loki is online as {bot.user}")
 
 theft.setup(bot)
 prompt.setup(bot)
