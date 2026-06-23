@@ -130,15 +130,14 @@ ithindril = [
     "watching Ender work with intense curiosity",
     "napping on Ender's equipment",
     "accidentally submitting code by walking across a keyboard",
-    "is somehow trapped inside a hoodie",
+    "somehow trapped inside a hoodie",
     "has claimed a cardboard box as her kingdom",
-    "is asleep in the most inconvenient place imaginable",
-    "has started a game of chase involving half the warehouse",
-    "is proudly carrying something larger than herself",
-    "has somehow convinced Ashara to help with a heist",
-    "is receiving unlimited cuddles and has no intention of leaving",
-    "has vanished with a suspiciously important item",
-    "has discovered a new hiding spot and refuses to reveal it"
+    "asleep in the most inconvenient place imaginable",
+    "starting a game of chase involving half the warehouse",
+    "proudly carrying something larger than herself",
+    "convincing Ashara to help with a heist",
+    "receiving unlimited cuddles and has no intention of leaving",
+    "mia \( has vanished with a suspiciously important item)\"
 ]
 
 
